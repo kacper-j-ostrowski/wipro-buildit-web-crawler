@@ -7,6 +7,7 @@ __mvn clean compile assembly:single__
 __java -jar wipro-buildit-web-crawler-1.0-SNAPSHOT-jar-with-dependencies__
 <br />
 Result is in results.txt
+<br />
 **Reasoning and describe any trade offs.**
 I normalize the URL so I cut out parameters part and take only the core URL. 
 Depending on params maybe there would be different content.
